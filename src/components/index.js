@@ -10,6 +10,8 @@ export { default as DashboardUsers } from "./DashboardUsers";
 export { default as DashboardAlbum } from "./DashboardAlbum";
 export { default as DashboardArtist } from "./DashboardArtist";
 export { default as DashboardNewSong } from "./DashboardNewSong";
+export { default as DashboardNewArtist } from "./DashboardNewArtist";
+export { default as DashboardNewAlbum } from "./DashboardNewAlbum";
 export { default as DashboardUserCard } from "./DashboardUserCard";
 export { default as AlertError } from "./AlertError";
 export { default as AlertSuccess } from "./AlertSuccess";

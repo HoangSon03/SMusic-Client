@@ -96,7 +96,7 @@ const DashboardUserCard = ({ data, index }) => {
         >
           <p className="text-textColor text-sm font-semibold">
             Bạn có chắc chắn muốn đánh dấu người dùng là{" "} 
-            <span>{data.role === "admin" ? "Member" : "Admin"} không? </span> ?
+            <span>{data.role === "admin" ? "Member" : "Admin"} không ? </span> 
           </p>
           <div className="flex items-center gap-4">
             <motion.button

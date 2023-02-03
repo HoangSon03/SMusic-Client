@@ -250,8 +250,8 @@ const DashboardNewSong = () => {
   };
 
   return (
-    <div className="flex items-center justify-center p-4 border border-gray-300 rounded-md">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+    <div className="flex items-center justify-evenly w-full flex-wrap">
+      <div className="flex flex-col items-center justify-center w-full">
         <div className="flex flex-col items-center justify-center gap-4">
           <input
             type="text"

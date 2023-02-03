@@ -10,6 +10,8 @@ import { IoHome } from "react-icons/io5";
 import { Route, Routes } from "react-router-dom";
 import { isActiveStyles, isNotActiveStyles } from "../utils/styles";
 import DashboardHome from "./DashboardHome";
+import DashboardNewArtist from "./DashboardNewArtist";
+import DashboardNewAlbum from "./DashboardNewAlbum";
 
 const Dashboard = () => {
   return (
@@ -40,6 +42,8 @@ const Dashboard = () => {
           <Route path="/artist" element={<DashboardArtist />} />
           <Route path="/albums" element={<DashboardAlbum />} />
           <Route path="/newSong" element={<DashboardNewSong />} />
+          <Route path="/newArtist" element={<DashboardNewArtist />} />
+          <Route path="/newAlbum" element={<DashboardNewAlbum />} />
         </Routes>
       </div>
     </div>
